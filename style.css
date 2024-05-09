@@ -134,6 +134,9 @@
 
   gap: 2rem;
 }
+.about-work {
+  width: 85%;
+}
 .work-h1 {
   color: var(--primarycolor);
   text-align: center;
@@ -274,6 +277,10 @@ footer h2 {
   .navigations_items > * {
     font-size: 1.1rem;
   }
+  .main_container {
+    height: 70vh;
+    padding-bottom: 3rem;
+  }
   .main-h1 {
     font-size: 2rem;
     text-align: center;
@@ -293,7 +300,9 @@ footer h2 {
   .h1-style {
     font-size: 2.3rem;
   }
-
+  .work-h1-last {
+    padding-top: 6rem;
+  }
   .me_container {
     grid-template-columns: 1fr;
     max-width: 100%;
