@@ -278,12 +278,20 @@ footer h2 {
     font-size: 1.1rem;
   }
   .main_container {
-    height: 70vh;
+    height: 80vh;
     padding-bottom: 3rem;
   }
   .main-h1 {
     font-size: 2rem;
     text-align: center;
+  }
+
+  .about_container {
+    grid: 1fr;
+    gap: 0;
+  }
+  .about-work {
+    padding: 1em;
   }
   .main-p {
     font-size: 1.3rem;
@@ -332,6 +340,10 @@ footer h2 {
   }
   .map {
     width: 100%;
+  }
+  .h1-finding {
+    padding: 1em;
+    text-align: center;
   }
   footer h2 {
     font-size: 1.2rem;
